@@ -1,2 +1,1 @@
-# my-project-template
-template for new projects
+custom sentry appender for log4js

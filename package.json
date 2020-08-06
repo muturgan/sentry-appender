@@ -1,0 +1,20 @@
+{
+  "name": "sentry-appender",
+  "version": "1.0.0",
+  "description": "custom sentry appender for log4js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muturgan/sentry-appender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muturgan/sentry-appender/issues"
+  },
+  "homepage": "https://github.com/muturgan/sentry-appender#readme",
+  "author": "Andrey Sakharov <caxap_8787@mail.ru>",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": ["log4js", "sentry"],
+  "dependencies": {
+    "@sentry/node": "^5.20.1"
+  }
+}
