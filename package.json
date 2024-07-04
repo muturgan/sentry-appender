@@ -12,9 +12,10 @@
   "homepage": "https://github.com/muturgan/sentry-appender#readme",
   "author": "Andrey Sakharov <caxap_8787@mail.ru>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.cjs",
+  "module": "index.mjs",
   "keywords": ["log4js", "sentry"],
   "dependencies": {
-    "@sentry/node": "^5.20.1"
+    "@sentry/node": "^5.30.0"
   }
 }

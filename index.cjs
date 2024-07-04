@@ -8,9 +8,9 @@ function sentryAppender(levels) {
         if (lvl.isGreaterThanOrEqualTo(levels.WARN)) {
             const sorted = loggingEvent.data.reduce((acc, event) => {
                 if (event instanceof Error) {
-                    acc = [event, ...acc];
+                    acc.unshift(event);
                 } else {
-                    acc = [...acc, event];
+                    acc.push(event);
                 }
 
                 return acc;
